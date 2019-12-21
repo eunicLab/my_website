@@ -1,25 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Home from './Home'
+import Experience from './Experience'
+import Skills from './Skills'
+import Projects from './Projects'
+import Footer from './Footer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+    <div>
+    		<div className="navbar">
+  				<a href="#home">Home</a>
+  				<a href="#experience">Experience</a>
+  				<a href="#skills">Skills</a>
+  				<a href="#projects">Projects</a>
+  				<a href="#footer">Connnect</a>
+			</div>
+
+		<div className ="main">
+			<div id="home">
+        		<Home images/>
+        	</div>
+        	<div id="experience">
+        		<Experience/>
+        	</div>
+        	<div id ="skills">
+        		<Skills/>
+        	</div>
+        	<div id ="projects">
+        	<Projects/>
+        	</div>
+        	<div id="footer">
+        	<Footer/>
+        	</div>
+
+  		</div>
     </div>
+   
   );
 }
 
