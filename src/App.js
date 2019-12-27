@@ -6,16 +6,47 @@ import Skills from './Skills'
 import Projects from './Projects'
 import Footer from './Footer'
 
-function App() {
+class App extends React.Component{
+  constructor(){
+    super()
+    this.state={navbarName:"navbar"}
+    this.myFunction=this.myFunction.bind(this)
+    this.myFunction2=this.myFunction2.bind(this)
+  
+
+
+  }
+
+myFunction(){
+  var x = document.getElementById("myTopnav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+
+}
+
+myFunction2(){
+  var x = document.getElementById("myTopnav");
+    x.className = "navbar";
+}
+
+
+  render(){
+
   return (
   
     <div>
-    		<div className="navbar">
-  				<a href="#home">Home</a>
-  				<a href="#experience">Experience</a>
-  				<a href="#skills">Skills</a>
-  				<a href="#projects">Projects</a>
-  				<a href="#footer">Connnect</a>
+    		<div className="navbar" id= "myTopnav">
+          <ul>
+  				<a href="#home" onClick={this.myFunction2}>Home</a>
+  				<a href="#experience" onClick={this.myFunction}>Experience</a>
+  				<a href="#skills" onClick={this.myFunction}>Skills</a>
+  				<a href="#projects"onClick={this.myFunction}>Projects</a>
+  				<a href="#footer" onClick={this.myFunction}>Connnect</a>
+          <a href="javascript:void(0);" class="icon" onClick={this.myFunction}>&#9776;</a>
+          </ul>
 			</div>
 
 		<div className ="main">
@@ -39,6 +70,7 @@ function App() {
     </div>
    
   );
+}
 }
 
 export default App;

@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import gear from './gear.png'
-import bizman from './bizman.gif'
+import gear from './clock.gif'
+import bizman from './tracker.gif'
 import chat from './chat.gif'
-import avo from './avo.png'
+import avo from './treasureHunter.gif'
 import fire from './fire.gif'
-import money from './money.gif'
-import Instalava from './il_demo.gif'
-import paywaal from './pw_demo.gif'
-import plate from './plate.gif'
+import money from './tic.gif'
+import Instalava from './tictac.gif'
+import paywaal from './ToDo.gif'
+import plate from './treasureHunt.gif'
+import tracker from './weightTracker.gif'
 
 
 
@@ -35,34 +36,35 @@ function Projects (){
                             		<h4 className="card__heading">
 
                                 		<span className="card__heading-span--1">
-                                    		Booking Microservice
+                                    		To Do List 
                                 		</span>
                             		</h4>
                             	<div className="card__details">
-                                	<ul>
-                                   	 	<li>AWS SQS</li>
-                                    	<li>Docker</li>
-                                    	<li>NodeJS</li>
-                                   		<li>Cassandra</li>
-                               		</ul>
+                                <ul>
+                                        <li>Html</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>React</li>
+                                    </ul>
                             	</div>
                         	</div>
                         	<div className="card__side card__side--back card__side--back-1">
 
                             	<div className="card__cta">
-
-                                	<div className="card__box">
-                                    	<div className="card__description">
-                                        	<p>
-                                            A back-end booking system, handles 1500+ requests / sec
+                                <div className="card__box">
+                                    <div className="card__description">
+                                        <p>
+                                            To Do List app helps you plan your time and get the most out of your day
                                         </p>
                                     </div>
                                 </div>
-                                <a href="https://github.com/aj-4/airbnb-booking-microsvc" className = "btn btn--white btn--github">Source Code</a>
+                                <a href="#popup-3" className="btn btn--white btn--github">Demo</a>
                             </div>
                         </div>
                     </div>
+
                 </div>
+
                 <div className="col-1-of-3">
                     <div className="card">
                         <div className="card__side card__side--front card__side--front-2">
@@ -72,15 +74,15 @@ function Projects (){
                             <img src= {bizman} class= {"card__svg-icon card__svg-icon-6"} alt= {""}/>
                             <div className="card__heading">
                                 <span className="card__heading-span--6">
-                                    Elevator Live Stream
+                                    Weight Tracker
                                 </span>
                             </div>
                             <div className="card__details">
                                 <ul>
-                                    <li>React | Redux</li>
+                                    <li>Html</li>
                                     <li>CSS</li>
-                                    <li>Express | NodeJS</li>
-                                    <li>Tokbox API</li>
+                                    <li>React | JavaScript</li>
+                                    <li>Chartjs</li>
                                 </ul>
                             </div>
                         </div>
@@ -89,7 +91,7 @@ function Projects (){
                                 <div className="card__box">
                                     <div className="card__description">
                                         <p>
-                                            Fully functional live stream app to practice elevator pitches
+                                            An App that helps you keep track of your weight, helping you achieve your desired weight
                                         </p>
                                     </div>
                                 </div>
@@ -146,15 +148,15 @@ function Projects (){
                                 <img src={avo} className= {"card__svg-icon card__svg-icon-4 floating"} alt={""}/>
                                 <h4 className="card__heading">
                                     <span className="card__heading-span--4">
-                                        Perfect Plate
+                                        Treasure Hunt
                                     </span>
                                 </h4>
                                 <div className="card__details">
                                     <ul>
+                                        <li>Html</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
                                         <li>React</li>
-                                        <li>CSS | SASS</li>
-                                        <li>Express | NodeJS</li>
-                                        <li>mySQL</li>
                                     </ul>
                                 </div>
                             </div>
@@ -163,7 +165,7 @@ function Projects (){
                                     <div className="card__box">
                                         <div className="card__description">
                                             <p>
-                                                Data populated and cached with REST API calls to USDA database
+                                                Ships are placed randomly on the board, disappear after a few seconds and player tries to find them before time out
                                             </p>
                                         </div>
                                     </div>
@@ -187,10 +189,11 @@ function Projects (){
                             </div>
                             <div className="card__details">
                                 <ul>
-                                    <li>React | Redux</li>
-                                    <li>SemanticUI</li>
-                                    <li>Express | NodeJS</li>
-                                    <li>PostgreSQL</li>
+                                    
+                                        <li>Html</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>React</li>
                                 </ul>
                             </div>
                         </div>
@@ -218,33 +221,32 @@ function Projects (){
                                 <img src={money} className= {"card__svg-icon card__svg-icon-5 floating"} alt={""}/>
                                 <h5 className="card__heading">
                                     <span className="card__heading-span--5">
-                                        Stock Trader
+                                        Tic Tac Toe
                                     </span>
                                 </h5>
                                 <div className="card__details">
                                     <ul>
-                                        <li>Django</li>
+                                        <li>Html</li>
                                         <li>CSS</li>
-                                        <li>Python</li>
-                                        <li>Jinja</li>
+                                        <li>JavaScript</li>
+                                        <li>React</li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="card__side card__side--back card__side--back-5">
                                 <div className="card__cta">
-                                    <div className="card__box">
-                                        <div className="card__description">
-                                            <p>
-                                                Stock data pulled in real time from Yahoo Finance API
-                                            </p>
-                                        </div>
+                                <div className="card__box">
+                                    <div className="card__description">
+                                        <p>
+                                            X and O game to play with friends
+                                        </p>
                                     </div>
-                                    <a href="https://github.com/aj-4/stock_trader" className="btn btn--white btn--github">source code</a>
                                 </div>
+                                <a href="#popup-2" className="btn btn--white btn--github">Demo</a>
                             </div>
                         </div>
                     </div>
-
+                </div>
 
                  </div>
                  </div>
@@ -265,14 +267,14 @@ function Projects (){
             </div>
             <div className="popup__right">
                 <a href="#section-tours" className="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-2">Instalava</h3>
-                <h3 className="heading-tertiary u-margin-bottom-small">React, Express, PostgreSQL</h3>
+                <h3 class="heading-secondary-sm popup__header-2">Tic Tac Toe </h3>
+                <h3 className="heading-tertiary u-margin-bottom-small">Html, CSS, ReactL</h3>
                 <div class="popup__text u-margin-bottom-medium">
                     <p>
-                        Live feed, profile pages, followers.
+                       A fun game to play with friends.
                     </p>
                 </div>
-                <a href="https://github.com/aj-4/lawa-ig" class="btn popup__btn-2">Source Code</a>
+                <a href="https://github.com/eunicLab/tic_tac_toe" class="btn popup__btn-2">Source Code</a>
             </div>
         </div>
     </div>
@@ -286,14 +288,14 @@ function Projects (){
             </div>
             <div className="popup__right">
                 <a href="#section-tours" className="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-3">Paywaal</h3>
-                <h3 className="heading-tertiary u-margin-bottom-small">React, Redux, Socket.io</h3>
+                <h3 class="heading-secondary-sm popup__header-3">To Do List</h3>
+                <h3 className="heading-tertiary u-margin-bottom-small">Html, CSS, React</h3>
                 <div class="popup__text u-margin-bottom-medium">
                     <p>
-                        Chat, notifications, add friends. Live.
+                        Make a list of things you need to do, check an item once it is completed
                     </p>
                 </div>
-                <a href="https://github.com/aj-4/hrpaymo" class="btn popup__btn-3">Source Code</a>
+                <a href="https://github.com/eunicLab/my_to_do_app" class="btn popup__btn-3">Source Code</a>
             </div>
         </div>
     </div>
@@ -305,14 +307,14 @@ function Projects (){
             </div>
             <div className="popup__right">
                 <a href="#section-tours" className="popup__close">&times;</a>
-                <h3 className="heading-secondary-sm popup__header-4">Perfect Plate</h3>
-                <h3 className="heading-tertiary u-margin-bottom-small">React, CSS, Express</h3>
+                <h3 className="heading-secondary-sm popup__header-4">Treasure Hunt</h3>
+                <h3 className="heading-tertiary u-margin-bottom-small">Html, CSS, React</h3>
                 <div className="popup__text u-margin-bottom-medium">
                     <p>
-                        Instant nutrition info for any food. Create plates.
+                        Test your brain's ability to remember while playing a fun treasure hunt game.
                     </p>
                 </div>
-                <a href="https://github.com/aj-4/perfect-plate" className="btn popup__btn-4">Source Code</a>
+                <a href="https://github.com/eunicLab/treasure-hunt2.0" className="btn popup__btn-4">Source Code</a>
             </div>
         </div>
     </div>
@@ -321,19 +323,19 @@ function Projects (){
         <div className="popup__content">
             <div className="popup__left">
                 <a href="#projects">
-<img src="https://media.giphy.com/media/EBnTOYz5LFZesguqtI/giphy.gif" alt="Elevator Demo" class="popup__img"/>
+<img src={tracker} alt="Elevator Demo" class="popup__img"/>
                 </a>
             </div>
             <div className="popup__right">
                 <a href="#section-tours" className="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-5">Elevator</h3>
-                <h3 className="heading-tertiary u-margin-bottom-small">React, Redux, Tokbox API</h3>
+                <h3 class="heading-secondary-sm popup__header-5">Weight Tracker</h3>
+                <h3 className="heading-tertiary u-margin-bottom-small">Html, CSS, React, Chartjs</h3>
                 <div className="popup__text u-margin-bottom-medium">
                     <p>
-                        Practice your pitch for your company or yourself. Live stream. Get immediate feedback. Watch yourself improve.
+                        Set a goal for your desired weight, input your current weight daily. This app plots the graph of your progress, motivating you to achieve your goal
                     </p>
                 </div>
-                <a href="https://github.com/aj-4/elevator" class="btn popup__btn-5">Source Code</a>
+                <a href="https://github.com/eunicLab/weight-tracker2" class="btn popup__btn-5">Source Code</a>
             </div>
         </div>
     </div>

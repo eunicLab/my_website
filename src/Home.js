@@ -9,7 +9,7 @@ function Home (){
 				<div className="header__text-box">
             		<h1 className="heading-primary">
                       <span className="heading-primary--main">Eunice Nnaji</span>
-                      <span className="heading-primary--sub">SoftWare Engineer</span>
+                      <span className="heading-primary--sub">SoftWare Developer</span>
             		</h1>
             		<a href="#projects" class="btn btn--white btn--animated smooth-goto">See Projects</a>
             	</div>

@@ -2,11 +2,11 @@ import React from 'react';
 import './App.css';
 
 function Skills (){
-	return(
-		<div>
-		  <main>
+    return(
+        <div>
+          <main>
 
-			<section className="section-features">
+            <section className="section-features">
             <div className="row">
                 <div className="col-1-of-4">
                     <div className="feature-box">
@@ -68,8 +68,8 @@ function Skills (){
         </section>
       </main>
 
-		</div>
-		)
+        </div>
+        )
 }
 
 export default Skills;

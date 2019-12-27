@@ -405,7 +405,7 @@ body {
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, #44b2e6, #05044d), url(chatbg.png); }
     .card__picture--4 {
-      background-image: linear-gradient(to right bottom, #6b330e, #978f1c), url(food.png); }
+      background-image: linear-gradient(to right bottom, #6b330e, #978f1c), url(treasure-chest.jpg); }
     .card__picture--5 {
       background-image: linear-gradient(to right bottom, #396b2a, #1b2e21), url(dollar.jpg); }
     .card__picture--6 {
@@ -747,12 +747,14 @@ body {
   background-color:black;
   position: fixed;
   top: 0;
-  width: 200%;
+  left:0;
+  width: 100%;
   z-index:99;
 }
 
+
 .navbar a {
-  float: left;
+  float:left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -773,6 +775,47 @@ body {
   z-index:1;
   height: 1500px; /* Used in this example to enable scrolling */
 }
+
+.navbar .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child){
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: fixed;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar.responsive .dropdown {float: none;}
+  .navbar.responsive .dropdown-content {position: relative;}
+  .navbar.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
 
 
 
