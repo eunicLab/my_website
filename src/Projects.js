@@ -2,14 +2,16 @@ import React from 'react';
 import './App.css';
 import gear from './clock.gif'
 import bizman from './tracker.gif'
-import chat from './chat.gif'
+import chat from './chat2.gif'
 import avo from './treasureHunter.gif'
-import fire from './fire.gif'
+import fire from './weather.gif'
 import money from './tic.gif'
 import Instalava from './tictac.gif'
 import paywaal from './ToDo.gif'
 import plate from './treasureHunt.gif'
 import tracker from './weightTracker.gif'
+import docsite from './docsite.gif'
+import flames from './flames.gif'
 
 
 
@@ -58,7 +60,7 @@ function Projects (){
                                         </p>
                                     </div>
                                 </div>
-                                <a href="#popup-3" className="btn btn--white btn--github">Demo</a>
+                                <a href="#popup-6" className="btn btn--white btn--github">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -109,16 +111,16 @@ function Projects (){
                             <img src= {chat} className= {"card__svg-icon card__svg-icon-3"} alt={""}/>
                             <div className="card__heading">
                                 <span className="card__heading-span--3">
-                                    Paywall Chat and Pay
+                                  Hospital Website Template
                                 </span>
                             </div>
                             <div className="card__details">
                                 <ul>
-                                    <li>React | Redux</li>
-                                    <li>Socket.io</li>
-                                    <li>Express | NodeJS</li>
-                                    <li>PostgreSQL</li>
-                                </ul>
+                                        <li>Html</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>React</li>
+                                    </ul>
                             </div>
                         </div>
                         <div className="card__side card__side--back card__side--back-3">
@@ -126,7 +128,7 @@ function Projects (){
                                 <div className="card__box">
                                     <div className="card__description">
                                         <p>
-                                            Payment app with live messaging, notifications, friends list
+                                            A mobile friendly hospital website template
                                         </p>
                                     </div>
                                 </div>
@@ -184,7 +186,7 @@ function Projects (){
                             <img src= {fire} className={"card__svg-icon card__svg-icon-2"} alt={""}/>
                             <div className="card__heading">
                                 <span className="card__heading-span--2">
-                                    Instalava Picture App
+                                   Dress for the Weather
                                 </span>
                             </div>
                             <div className="card__details">
@@ -202,11 +204,11 @@ function Projects (){
                                 <div className="card__box">
                                     <div className="card__description">
                                         <p>
-                                            Instagram-inspired picture app with feed, profiles, followers
+                                           This app helps you dress appropriately for the weather
                                         </p>
                                     </div>
                                 </div>
-                                <a href="#popup-2" className="btn btn--white btn--github">Demo</a>
+                                <a href="#popup-1" className="btn btn--white btn--github">Demo</a>
                             </div>
                         </div>
                     </div>
@@ -258,6 +260,33 @@ function Projects (){
         
 
 
+
+
+<div class="popup" id="popup-1">
+        <div class="popup__content">
+            <div class="popup__left">
+                <a href="#projects">
+                    <img src = {flames} alt= {"Instalava"} className= {"popup__img"}/>
+                </a>
+            </div>
+            <div className="popup__right">
+                <a href="#section-tours" className="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-2">Dress for the Weather </h3>
+                <h3 className="heading-tertiary u-margin-bottom-small">Html, CSS, ReactL</h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                      In production. Coming Soon
+                    </p>
+                </div>
+                <a href="https://github.com/eunicLab" class="btn popup__btn-2">Source Code</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 <div class="popup" id="popup-2">
         <div class="popup__content">
             <div class="popup__left">
@@ -283,19 +312,19 @@ function Projects (){
         <div class="popup__content">
             <div class="popup__left">
                 <a href="#projects">
-                	<img src = {paywaal} alt = {paywaal} class = {"popup__img"}/>
+                	<img src = {docsite} alt = {paywaal} class = {"popup__img"}/>
                 </a>
             </div>
             <div className="popup__right">
                 <a href="#section-tours" className="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-3">To Do List</h3>
+                <h3 class="heading-secondary-sm popup__header-3">Hospital Website Template</h3>
                 <h3 className="heading-tertiary u-margin-bottom-small">Html, CSS, React</h3>
                 <div class="popup__text u-margin-bottom-medium">
                     <p>
-                        Make a list of things you need to do, check an item once it is completed
+                        A mobile responsive hospital website template 
                     </p>
                 </div>
-                <a href="https://github.com/eunicLab/my_to_do_app" class="btn popup__btn-3">Source Code</a>
+                <a href="https://github.com/eunicLab/docsite" class="btn popup__btn-3">Source Code</a>
             </div>
         </div>
     </div>
@@ -339,6 +368,30 @@ function Projects (){
             </div>
         </div>
     </div>
+
+
+
+<div class="popup" id="popup-6">
+        <div class="popup__content">
+            <div class="popup__left">
+                <a href="#projects">
+                    <img src = {paywaal} alt = {paywaal} class = {"popup__img"}/>
+                </a>
+            </div>
+            <div className="popup__right">
+                <a href="#section-tours" className="popup__close">&times;</a>
+                <h3 class="heading-secondary-sm popup__header-3">To Do List</h3>
+                <h3 className="heading-tertiary u-margin-bottom-small">Html, CSS, React</h3>
+                <div class="popup__text u-margin-bottom-medium">
+                    <p>
+                       Plan your activities with this to do app to get the most out of your time
+                    </p>
+                </div>
+                <a href="https://github.com/eunicLab/my_to_do_app" class="btn popup__btn-3">Source Code</a>
+            </div>
+        </div>
+    </div>
+
 
 
 		</div>

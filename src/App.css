@@ -401,7 +401,7 @@ body {
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #eca026, rgba(185, 19, 19, 0.911)), url(gears.png); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #9c1283, #aa2b15), url(flames.png); }
+      background-image: linear-gradient(to right bottom, #9c1283, #aa2b15), url(flames.gif); }
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, #44b2e6, #05044d), url(chatbg.png); }
     .card__picture--4 {
@@ -469,9 +469,10 @@ body {
     top: 5%; }
     .card__svg-icon-2 {
       top: -5%;
-      left: 5%; }
+      left: 5%;
+      width:45%; }
     .card__svg-icon-3 {
-      width: 18%;
+      width: 40%;
       top: 7%;
       left: 7%; }
     .card__svg-icon-4 {
@@ -485,7 +486,7 @@ body {
     .card__svg-icon-6 {
       top: 5%;
       left: 0%;
-      width: 35%; }
+      width: 40%; }
   @media (max-width: 56.25em) {
     .card {
       height: auto;
@@ -701,7 +702,7 @@ body {
     text-align: center;
     margin-bottom: 2rem; }
   .footer__logo {
-    width: 10rem;
+    width: 12rem;
     height: auto;
     transition: all .3s; }
     .footer__logo:hover {
@@ -815,7 +816,30 @@ body {
   }
 }
 
+.icon{
+  width: 40px;
+  height:40px;
+  padding-bottom:10%;
+  padding-left:10%;
+}
 
 
+.icon2{
+  width: 55px;
+  height:40px;
+  padding-bottom:10%;
+  padding-left:10%;
+}
+
+.designer{
+
+  display:flex;
+  padding-left: 43%;
+  
+}
+
+.designerText{
+  color:white;
+}
 
 

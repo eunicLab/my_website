@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import nodejs from './nodejs.png'
 import javascript from './javascript.png'
 import react from './react.png'
 import experience from './experience.png'
