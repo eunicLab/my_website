@@ -253,19 +253,7 @@ text-transform: uppercase;
   transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.21); }
 
-  .btn2: visited{
-text-transform: uppercase;
-  text-decoration: none;
-  padding: 1.5rem 4rem;
-  display: inline-block;
-  border-radius: 10rem;
-  transition: all .2s;
-  font-size: 1.6rem; 
-  margin-left:39%;
-  margin-top: 3%;
- 
- }
-
+  
 
 
 .btn:link,.btn:visited {
