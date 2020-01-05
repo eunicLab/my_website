@@ -41,10 +41,10 @@ myFunction2(){
     		<div className="navbar" id= "myTopnav">
           <ul>
   				<a href="#home" onClick={this.myFunction2}>Home</a>
-  				<a href="#experience" onClick={this.myFunction}>Experience</a>
+  				<a href="#about" onClick={this.myFunction}>About</a>
   				<a href="#skills" onClick={this.myFunction}>Skills</a>
   				<a href="#projects"onClick={this.myFunction}>Projects</a>
-  				<a href="#footer" onClick={this.myFunction}>Connnect</a>
+  				<a href="#connect" onClick={this.myFunction}>Connnect</a>
           <a href="javascript:void(0);" class="icon" onClick={this.myFunction}>&#9776;</a>
           </ul>
 			</div>
@@ -53,7 +53,7 @@ myFunction2(){
 			<div id="home">
         		<Home images/>
         	</div>
-        	<div id="experience">
+        	<div id="about">
         		<Experience/>
         	</div>
         	<div id ="skills">
@@ -62,7 +62,7 @@ myFunction2(){
         	<div id ="projects">
         	<Projects/>
         	</div>
-        	<div id="footer">
+        	<div id="connect">
         	<Footer/>
         	</div>
 
