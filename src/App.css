@@ -238,10 +238,12 @@ text-transform: uppercase;
   border-radius: 10rem;
   transition: all .2s;
   font-size: 1.6rem; 
-  margin-left:39%;
-  margin-top: 3%;
   cursor: pointer;
   outline: none;
+  text-align: center;
+  background-color: #fff;
+  color: #777;  
+  
  
  }
 
@@ -886,7 +888,7 @@ display: none;
 .icon-images{
   width: 30%;
   height:30%;
-  margin-left:40%;
+  margin: 2% 34%;
 
 
 }
@@ -894,12 +896,12 @@ display: none;
 .icon-images2{
   width: 34%;
   height:34%;
-  margin-left:40%;
+ margin: 2% 34%;
  
 }
 
 .textmargin{
-  margin-left:15%;
+  
   text-align: center;
 }
 

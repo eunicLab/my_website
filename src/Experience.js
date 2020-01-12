@@ -78,10 +78,14 @@ render(){
 
                                 <div>
                               
+                               <div className="u-center-text u-margin-bottom-big">
+                              
                               <button className="btn2" onClick={this.handleButton}>{this.state.buttonText}</button>
+                              
+                              </div>
                               <iframe id ="mycv" className={this.state.cvDisplay} src= {resume}></iframe>
-                             
-                           
+                            
+                          
 
                             
                 		</div>
