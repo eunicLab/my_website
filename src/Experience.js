@@ -44,11 +44,11 @@ render(){
 
             		<div className="row">
                			<div className="col-1-of-3">
-                                <img src={passionate} className="icon-images"/>
+                                <img src={passionate} className="icon-images" alt="a heart symbol signifying passion"/>
                                 <div className= "textmargin">
                                  <h3 className="heading-tertiary u-margin-bottom-small">Passionate</h3>
                                  <p className="paragraph">
-                                I am a passionate, front end web developer 
+                                I am a passionate, web developer 
                                 who enjoys  transforming creative ideas
                                 into responsive web applications and websites.
                                 </p>
@@ -57,7 +57,7 @@ render(){
 
 
                             <div className="col-1-of-3">
-                                <img src={teamwork} className="icon-images"/>
+                                <img src={teamwork} className="icon-images" alt="teamwork icon"/>
                                 <div className= "textmargin">
                                 <h3 className="heading-tertiary u-margin-bottom-small">Agile Collaborator</h3>
                                  <p className="paragraph">
@@ -68,7 +68,7 @@ render(){
 
 
                                 <div className="col-1-of-3">
-                                <img src={excellent} className="icon-images2"/>
+                                <img src={excellent} className="icon-images2" alt= "thumbs up icon for excellence"/>
                                 <div className= "textmargin">
                                 <h3 className="heading-tertiary u-margin-bottom-small">excellent solutions</h3>
                                  <p className="paragraph">
@@ -76,19 +76,7 @@ render(){
                                   </div>
                                    </div>
 
-                                <div>
-                              
-                               <div className="u-center-text u-margin-bottom-big">
-                              
-                              <button className="btn2" onClick={this.handleButton}>{this.state.buttonText}</button>
-                              
-                              </div>
-                              <iframe id ="mycv" className={this.state.cvDisplay} src= {resume}></iframe>
-                            
-                          
-
-                            
-                		</div>
+                           
             			</div>
             	</section>
 

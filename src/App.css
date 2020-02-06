@@ -129,7 +129,7 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.7;
-  color: #777; }
+  color: #3F3838; }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -261,7 +261,7 @@ text-transform: uppercase;
 .btn:link,.btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 4rem;
+  padding: 2% 6%;
   display: inline-block;
   border-radius: 10rem;
   transition: all .2s;
@@ -277,7 +277,7 @@ text-transform: uppercase;
 
 .btn--white {
   background-color: #fff;
-  color: #777; }
+  color: #3F3838; }
 
 .btn--blue {
   background-color: #64495E;
@@ -579,7 +579,7 @@ text-transform: uppercase;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 50%;
     background-color: #fff;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 3px;
@@ -588,24 +588,67 @@ text-transform: uppercase;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all .4s .1s; }
+
+
+
+
+
+
+
+    @media (max-width: 56.25em) {
+      .popup__content {
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    display: table;
+    overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+    transition: all .4s .1s; 
+      }}
+
+
+
+
+  .popup__left1 {
+    width: 80%;
+    display: inline-block; }
+    @media (max-width: 56.25em) {
+      .popup__left1 {
+        width: 100%; } }
+  .popup__right {
+   display:none;
+
+    }
+
+
   .popup__left {
-    width: 70%;
-    display: table-cell; }
+    width: 100%;
+    display: inline-block; }
     @media (max-width: 56.25em) {
       .popup__left {
         width: 100%; } }
   .popup__right {
-    width: 30%;
-    vertical-align: middle;
-    display: table-cell;
-    padding: 1rem 3rem; }
-    @media (max-width: 56.25em) {
-      .popup__right {
-        display: none; } }
+   display:none;
+
+    }
   .popup__img {
     display: block;
     visibility: visible;
     width: 100%; }
+
+@media (max-width: 56.25em) {
+      .popup__img {
+        display: block;
+      visibility: visible;
+      width: 100%; } }
+
+
   .popup__text {
     font-size: 1.4rem; }
   .popup__header-2 {
@@ -899,19 +942,14 @@ display: none;
  margin: 2% 34%;
  
 }
+.button-Margin{
+  margin-right:3%;
+
+
+
+}
 
 .textmargin{
   
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-

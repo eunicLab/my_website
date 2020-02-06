@@ -23,7 +23,7 @@ render(){
 				<div className="header__text-box">
             		<h1 className="heading-primary">
                       <span className="heading-primary--main">Eunice Nnaji</span>
-                      <span className="heading-primary--sub">Front-End Web Developer</span>
+                      <span className="heading-primary--sub">Web Developer</span>
                 </h1>
                 <a href="#projects" className="btn btn--white btn--animated smooth-goto">See Projects</a>
               </div>

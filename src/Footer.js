@@ -12,7 +12,7 @@ function Footer (){
 		<footer className="footer">
         <div className="footer__logo-box">
             <a href="#top">
-                <img src= {Logo} alt= {"Logo"} className= {"footer__logo smooth-goto"}/>
+                <img src= {Logo} alt= "Logo for Eunice Nnaji" className= {"footer__logo smooth-goto"}/>
             </a>
         </div>
         <div className="row">
@@ -22,14 +22,14 @@ function Footer (){
                     <ul className="footer__list">
 
                     <li className="footer__item">
-                       <a href="mailto:eunicenaija2015@gmail.com" className="footer__link"><img src={mail} className="icon"/></a>
+                       <a href="mailto:eunicennaji@hotmail.co.uk" className="footer__link"><img src={mail} className="icon" alt="email icon"/></a>
                          </li>
 
                         <li className="footer__item">
-                            <a href="https://www.linkedin.com/in/eunice-nnaji-7b8090122/" className="footer__link"><img src={linkedin} className="icon"/></a>
+                            <a href="https://www.linkedin.com/in/eunice-nnaji-7b8090122/" className="footer__link"><img src={linkedin} className="icon" alt="Linkedin icon"/></a>
                         </li>
                         <li className="footer__item">
-                            <a href="https://github.com/eunicLab" className="footer__link"><img src={github} className="icon2"/></a>
+                            <a href="https://github.com/eunicLab" className="footer__link"><img src={github} className="icon2" alt ="github icon"/></a>
                         </li>
 
                          
