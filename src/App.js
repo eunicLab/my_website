@@ -5,7 +5,7 @@ import Experience from './Experience'
 import Skills from './Skills'
 import Projects from './Projects'
 import Footer from './Footer'
-import resume from './EN.pdf'
+import resume from './euniceNnajiResume.pdf'
 
 class App extends React.Component{
   constructor(){

@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import resume from './EN.pdf'
 import teamwork from './team-work.png'
 import passionate from './passion-icon.png'
 import excellent from './excellent.png'
@@ -72,7 +71,7 @@ render(){
                                 <div className= "textmargin">
                                 <h3 className="heading-tertiary u-margin-bottom-small">excellent solutions</h3>
                                  <p className="paragraph">
-                                    I always stay atuned with the newest industry tools and go the extra mile to deliver excellent solutions for maximum client satisfaction.</p>
+                                    I always stay attuned with the newest industry tools and go the extra mile to deliver excellent solutions for maximum client satisfaction.</p>
                                   </div>
                                    </div>
 

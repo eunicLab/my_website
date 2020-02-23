@@ -40,7 +40,7 @@ function Footer (){
             <div class="col-1-of-2">
                 <p class="footer__copyright">
                     Powered By 
-                    <a href="https://github.com/eunicLab" className="designerText"> EunicLab</a>
+                    <a href="https://github.com/eunicLab" className="designerText"> eunicLab</a>
                 </p>
             </div>
         </div>

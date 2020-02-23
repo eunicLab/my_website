@@ -203,7 +203,7 @@ function Projects (){
                                     <h4 className="card__heading">
 
                                         <span className="card__heading-span--1">
-                                            To Do List 
+                                            Time Maxima
                                         </span>
                                     </h4>
                                 <div className="card__details">
@@ -221,7 +221,7 @@ function Projects (){
                                 <div className="card__box">
                                     <div className="card__description">
                                         <p>
-                                            To Do List app helps you plan your time and get the most out of your day
+                                            A to do List app that helps you plan your time and get the most out of your days
                                         </p>
                                     </div>
                                 </div>
@@ -382,7 +382,7 @@ function Projects (){
         <div class="popup__content">
             <div class="popup__left1">
             <a href="#section-tours" className="popup__close">&times;</a>
-                <h3 class="heading-secondary-sm popup__header-3">To Do List</h3>
+                <h3 class="heading-secondary-sm popup__header-3">Time Maxima</h3>
                 <a href="#projects">
                     <img src = {paywaal} alt = "Demo of to do list app" class = {"popup__img"}/>
                 </a>
