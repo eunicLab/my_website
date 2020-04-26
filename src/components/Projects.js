@@ -1,18 +1,17 @@
 import React from 'react';
-import './App.css';
-import gear from './clock.gif';
-import bizman from './tracker.gif';
-import chat from './chat2.gif';
-import avo from './treasureHunter.gif';
-import fire from './weather.gif';
-import money from './tic.gif';
-import Instalava from './tictac.gif';
-import paywaal from './time_maxima.gif';
-import plate from './treasureHunt.gif';
-import tracker from './weightTracker.gif';
-import docsite from './docsite.gif';
-import flames from './flames.gif';
-import weatherApp from './weatherApp.gif';
+import '../App.css';
+import gear from '../images/clock.gif';
+import bizman from '../images/tracker.gif';
+import chat from '../images/chat2.gif';
+import avo from '../images/treasureHunter.gif';
+import fire from '../images/weather.gif';
+import money from '../images/tic.gif';
+import Instalava from '../images/tictac.gif';
+import paywaal from '../images/time_maxima.gif';
+import plate from '../images/treasureHunt.gif';
+import tracker from '../images/weightTracker.gif';
+import docsite from '../images/docsite.gif';
+import weatherApp from '../images/weatherApp.gif';
 
 function Projects() {
   return (
@@ -281,7 +280,7 @@ function Projects() {
               />
             </a>
             <a
-              href='https://github.com/eunicLab/redeem'
+              href='https://github.com/eunicLab/dress_for_the_weather'
               class='btn popup__btn-2 button-Margin'>
               Source Code
             </a>
@@ -301,7 +300,7 @@ function Projects() {
               <a href='#section-tours' className='popup__close'>
                 &times;
               </a>
-              <h3 class='heading-secondary-sm popup__header-2'>Tic Tac Toe </h3>
+              <h3 class='heading-secondary-sm popup__header-1'>Tic Tac Toe </h3>
               <img
                 src={Instalava}
                 alt='Demo of tic-tac-toe game'
@@ -310,12 +309,12 @@ function Projects() {
             </a>
             <a
               href='https://github.com/eunicLab/tic_tac_toe'
-              class='btn popup__btn-2 button-Margin'>
+              class='btn popup__btn-1 button-Margin'>
               Source Code
             </a>
             <a
               href='https://euniclab.github.io/tic_tac_toe'
-              class='btn popup__btn-2'>
+              class='btn popup__btn-1'>
               Launch App
             </a>
           </div>
@@ -395,7 +394,7 @@ function Projects() {
               />
             </a>
             <a
-              href='https://github.com/eunicLab/dress_for_the_weather'
+              href='https://github.com/eunicLab/weight-tracker'
               class='btn popup__btn-5 button-Margin'>
               Source Code
             </a>
@@ -414,7 +413,7 @@ function Projects() {
             <a href='#section-tours' className='popup__close'>
               &times;
             </a>
-            <h3 class='heading-secondary-sm popup__header-3'>Time Maxima</h3>
+            <h3 class='heading-secondary-sm popup__header-6'>Time Maxima</h3>
             <a href='#projects'>
               <img
                 src={paywaal}
@@ -423,13 +422,13 @@ function Projects() {
               />
             </a>
             <a
-              href='https://github.com/eunicLab/my_to_do_app'
-              class='btn popup__btn-3 button-Margin'>
+              href='https://github.com/eunicLab/time_maxima'
+              class='btn popup__btn-6 button-Margin'>
               Source Code
             </a>
             <a
               href='https://hopeful-wing-4328cb.netlify.com'
-              class='btn popup__btn-3'>
+              class='btn popup__btn-6'>
               Launch App
             </a>
           </div>
