@@ -1,14 +1,14 @@
 import React from 'react';
 import '../App.css';
-import gear from '../images/clock.gif';
+import shop from '../images/shop.gif';
 import bizman from '../images/tracker.gif';
 import chat from '../images/chat2.gif';
 import avo from '../images/treasureHunter.gif';
 import fire from '../images/weather.gif';
-import money from '../images/tic.gif';
-import Instalava from '../images/tictac.gif';
-import paywaal from '../images/time_maxima.gif';
-import plate from '../images/treasureHunt.gif';
+import tictac from '../images/tic.gif';
+import tictactoe from '../images/tictac.gif';
+import shopsmart from '../images/shopsmart.gif';
+import treasureHunt from '../images/treasureHunt.gif';
 import tracker from '../images/weightTracker.gif';
 import docsite from '../images/docsite.gif';
 import weatherApp from '../images/weatherApp.gif';
@@ -41,8 +41,7 @@ function Projects() {
                     <ul>
                       <li>Html</li>
                       <li>CSS</li>
-                      <li>JavaScript</li>
-                      <li>React</li>
+                      <li>Javascript | React</li>
                     </ul>
                   </div>
                 </div>
@@ -81,8 +80,7 @@ function Projects() {
                     <ul>
                       <li>Html</li>
                       <li>CSS</li>
-                      <li>React | JavaScript</li>
-                      <li>Chartjs</li>
+                      <li>Javascript | React</li>
                     </ul>
                   </div>
                 </div>
@@ -121,8 +119,7 @@ function Projects() {
                     <ul>
                       <li>Html</li>
                       <li>CSS</li>
-                      <li>JavaScript</li>
-                      <li>React</li>
+                      <li>Javascript | React</li>
                     </ul>
                   </div>
                 </div>
@@ -130,7 +127,7 @@ function Projects() {
                   <div className='card__cta'>
                     <div className='card__box'>
                       <div className='card__description'>
-                        <p>A mobile friendly hospital website template</p>
+                        <p>A cool hospital website </p>
                       </div>
                     </div>
                     <a href='#popup-3' className='btn btn--white btn--github'>
@@ -160,8 +157,7 @@ function Projects() {
                       <ul>
                         <li>Html</li>
                         <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
+                        <li>Javascript | React</li>
                       </ul>
                     </div>
                   </div>
@@ -169,11 +165,7 @@ function Projects() {
                     <div className='card__cta'>
                       <div className='card__box'>
                         <div className='card__description'>
-                          <p>
-                            Ships are placed randomly on the board, disappear
-                            after a few seconds and player tries to find them
-                            before time out
-                          </p>
+                          <p>find all the ships before before time out</p>
                         </div>
                       </div>
                       <a href='#popup-4' className='btn btn--white btn--github'>
@@ -189,19 +181,18 @@ function Projects() {
                   <div className='card__side card__side--front card__side--front-1'>
                     <div className='card__picture card__picture--1'>&nbsp;</div>
                     <img
-                      src={gear}
-                      className={'card__svg-icon spin'}
+                      src={shop}
+                      className={'card__svg-icon card__svg-icon-4 floating'}
                       alt='a spinning clock'
                     />
                     <h4 className='card__heading'>
-                      <span className='card__heading-span--1'>Time Maxima</span>
+                      <span className='card__heading-span--1'>ShopSmart</span>
                     </h4>
                     <div className='card__details'>
                       <ul>
                         <li>Html</li>
                         <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
+                        <li>React | Redux</li>
                       </ul>
                     </div>
                   </div>
@@ -209,10 +200,7 @@ function Projects() {
                     <div className='card__cta'>
                       <div className='card__box'>
                         <div className='card__description'>
-                          <p>
-                            A to do List app that helps you plan your time and
-                            get the most out of your days
-                          </p>
+                          <p>An App for managing your shopping Lists</p>
                         </div>
                       </div>
                       <a href='#popup-6' className='btn btn--white btn--github'>
@@ -228,7 +216,7 @@ function Projects() {
                   <div className='card__side card__side--front card__side--front-5'>
                     <div className='card__picture card__picture--5'>&nbsp;</div>
                     <img
-                      src={money}
+                      src={tictac}
                       className={'card__svg-icon card__svg-icon-5 floating'}
                       alt='Demo of tic-tac-toe game'
                     />
@@ -239,8 +227,7 @@ function Projects() {
                       <ul>
                         <li>Html</li>
                         <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
+                        <li>Javascript | React</li>
                       </ul>
                     </div>
                   </div>
@@ -302,7 +289,7 @@ function Projects() {
               </a>
               <h3 class='heading-secondary-sm popup__header-1'>Tic Tac Toe </h3>
               <img
-                src={Instalava}
+                src={tictactoe}
                 alt='Demo of tic-tac-toe game'
                 className={'popup__img'}
               />
@@ -358,7 +345,7 @@ function Projects() {
             </h3>
             <a href='#projects'>
               <img
-                src={plate}
+                src={treasureHunt}
                 alt='Demo of treasure hunt game'
                 class={'popup__img'}
               />
@@ -409,26 +396,24 @@ function Projects() {
 
       <div class='popup' id='popup-6'>
         <div class='popup__content'>
-          <div class='popup__left1'>
+          <div class='popup__left'>
             <a href='#section-tours' className='popup__close'>
               &times;
             </a>
-            <h3 class='heading-secondary-sm popup__header-6'>Time Maxima</h3>
+            <h3 class='heading-secondary-sm popup__header-6'>ShopSmart</h3>
             <a href='#projects'>
               <img
-                src={paywaal}
-                alt='Demo of to do list app'
+                src={shopsmart}
+                alt='Demo of shopsmart app'
                 class={'popup__img'}
               />
             </a>
             <a
-              href='https://github.com/eunicLab/time_maxima'
+              href='https://github.com/eunicLab/shopsmart'
               class='btn popup__btn-6 button-Margin'>
               Source Code
             </a>
-            <a
-              href='https://hopeful-wing-4328cb.netlify.com'
-              class='btn popup__btn-6'>
+            <a href='https://ishopsmart.tk' class='btn popup__btn-6'>
               Launch App
             </a>
           </div>

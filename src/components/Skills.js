@@ -16,9 +16,9 @@ function Skills() {
                 <p className='feature-box__text'>
                   <ul>
                     <li>HTML5</li>
-                    <li>CSS3 | SASS</li>
+                    <li>CSS3</li>
                     <li>JavaScript</li>
-                    <li>React | Redux</li>
+                    <li>React</li>
                   </ul>
                 </p>
               </div>
@@ -27,14 +27,14 @@ function Skills() {
               <div className='feature-box'>
                 <i className='feature-box__icon icon-basic-share'></i>
                 <h3 className='heading-tertiary u-margin-bottom-small'>
-                  Server
+                  Back End
                 </h3>
                 <p className='feature-box__text'>
                   <ul>
-                    <li>NodeJS</li>
+                    <li>Node.js</li>
                     <li>Express</li>
-                    <li>Koa</li>
-                    <li>Python</li>
+                    <li>MongoDB</li>
+                    <li>SQLite</li>
                   </ul>
                 </p>
               </div>
@@ -43,14 +43,14 @@ function Skills() {
               <div className='feature-box'>
                 <i className='feature-box__icon icon-basic-server2'></i>
                 <h3 className='heading-tertiary u-margin-bottom-small'>
-                  Database
+                  Deployment
                 </h3>
                 <p className='feature-box__text'>
                   <ul>
-                    <li>PostgreSQL</li>
-                    <li>mySQL</li>
-                    <li>MongoDB</li>
-                    <li>Cassandra</li>
+                    <li>Git</li>
+                    <li>AWS</li>
+                    <li>Netlify</li>
+                    <li>Heroku</li>
                   </ul>
                 </p>
               </div>
@@ -59,14 +59,14 @@ function Skills() {
               <div className='feature-box'>
                 <i className='feature-box__icon icon-basic-cloud'></i>
                 <h3 className='heading-tertiary u-margin-bottom-small'>
-                  Deployment
+                  Others
                 </h3>
                 <p className='feature-box__text'>
                   <ul>
                     <li>System Design</li>
-                    <li>AWS ECS | SQS</li>
-                    <li>Docker</li>
-                    <li>Git</li>
+                    <li>Redux</li>
+                    <li>graphQL</li>
+                    <li>Agile</li>
                   </ul>
                 </p>
               </div>

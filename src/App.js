@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './components/Home';
-import Experience from './components/Experience';
+import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
@@ -69,7 +69,7 @@ class App extends React.Component {
             <Home images />
           </div>
           <div id='about'>
-            <Experience />
+            <About />
           </div>
           <div id='skills'>
             <Skills />

@@ -4,19 +4,27 @@ import '../App.css';
 class Home extends React.Component {
   constructor() {
     super();
-    this.handleButton = this.handleButton.bind(this);
+    this.state = {
+      home: 'header1',
+    };
   }
 
-  handleButton() {}
+  componentDidMount() {
+    var count = 6;
+    setInterval(() => {
+      count === 6 ? (count = 1) : count++;
+      this.setState({ home: 'header' + count });
+    }, 3000);
+  }
 
   render() {
     return (
       <div>
-        <header className='header'>
+        <header className={this.state.home}>
           <div className='header__text-box'>
             <h1 className='heading-primary'>
               <span className='heading-primary--main'>Eunice Nnaji</span>
-              <span className='heading-primary--sub'>Web Developer</span>
+              <span className='heading-primary--sub'>Software Developer</span>
             </h1>
             <a
               href='#projects'

@@ -40,9 +40,9 @@ class Experience extends React.Component {
                     Passionate
                   </h3>
                   <p className='paragraph'>
-                    I am a passionate, web developer who enjoys transforming
-                    creative ideas into responsive web applications and
-                    websites.
+                    I am a passionate, software developer who enjoys
+                    transforming creative ideas into responsive software
+                    applications and websites.
                   </p>
                 </div>
               </div>
