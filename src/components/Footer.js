@@ -1,9 +1,8 @@
 import React from 'react';
 import '../App.css';
-import Logo from '../images/EN-logo.png';
-import linkedin from '../images/linkedin.png';
-import github from '../images/github.png';
-import mail from '../images/Mail-icon.png';
+import { AiOutlineMail } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 
 function Footer() {
   return (
@@ -12,7 +11,9 @@ function Footer() {
         <div className='footer__logo-box'>
           <a href='#top'>
             <img
-              src={Logo}
+              src={
+                'https://drive.google.com/uc?export=view&id=16bydpZgkSO6SJvlzmE-Tz5FXxvYIY7sZ'
+              }
               alt='Logo for Eunice Nnaji'
               className={'footer__logo smooth-goto'}
             />
@@ -26,7 +27,7 @@ function Footer() {
                   <a
                     href='mailto:eunicennaji@hotmail.co.uk'
                     className='footer__link'>
-                    <img src={mail} className='icon' alt='email icon' />
+                    <AiOutlineMail className='icon' alt='email icon' />
                   </a>
                 </li>
 
@@ -34,14 +35,14 @@ function Footer() {
                   <a
                     href='https://www.linkedin.com/in/eunice-nnaji-7b8090122/'
                     className='footer__link'>
-                    <img src={linkedin} className='icon' alt='Linkedin icon' />
+                    <AiFillLinkedin className='icon' alt='Linkedin icon' />
                   </a>
                 </li>
                 <li className='footer__item'>
                   <a
                     href='https://github.com/eunicLab'
                     className='footer__link'>
-                    <img src={github} className='icon2' alt='github icon' />
+                    <AiFillGithub className='icon' alt='github icon' />
                   </a>
                 </li>
               </ul>

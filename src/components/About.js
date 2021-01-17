@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
-import teamwork from '../images/team-work.png';
-import passionate from '../images/passion-icon.png';
-import excellent from '../images/excellent.png';
+import { FaThumbsUp } from 'react-icons/fa';
+import { FaHeart } from 'react-icons/fa';
+import { RiTeamFill } from 'react-icons/ri';
 
 class Experience extends React.Component {
   constructor() {
@@ -30,8 +30,8 @@ class Experience extends React.Component {
 
             <div className='row'>
               <div className='col-1-of-3'>
-                <img
-                  src={passionate}
+                <FaHeart
+                  color='black'
                   className='icon-images'
                   alt='a heart symbol signifying passion'
                 />
@@ -48,8 +48,8 @@ class Experience extends React.Component {
               </div>
 
               <div className='col-1-of-3'>
-                <img
-                  src={teamwork}
+                <RiTeamFill
+                  color='black'
                   className='icon-images'
                   alt='teamwork icon'
                 />
@@ -66,9 +66,9 @@ class Experience extends React.Component {
               </div>
 
               <div className='col-1-of-3'>
-                <img
-                  src={excellent}
-                  className='icon-images2'
+                <FaThumbsUp
+                  color='black'
+                  className='icon-images'
                   alt='thumbs up icon for excellence'
                 />
                 <div className='textmargin'>

@@ -1,17 +1,5 @@
 import React from 'react';
 import '../App.css';
-import shop from '../images/shop.gif';
-import bizman from '../images/tracker.gif';
-import chat from '../images/chat2.gif';
-import avo from '../images/treasureHunter.gif';
-import fire from '../images/weather.gif';
-import tictac from '../images/tic.gif';
-import tictactoe from '../images/tictac.gif';
-import shopsmart from '../images/shopsmart.gif';
-import treasureHunt from '../images/treasureHunt.gif';
-import tracker from '../images/weightTracker.gif';
-import docsite from '../images/docsite.gif';
-import weatherApp from '../images/weatherApp.gif';
 
 function Projects() {
   return (
@@ -25,37 +13,141 @@ function Projects() {
           <div className='row'>
             <div className='col-1-of-3'>
               <div className='card'>
-                <div className='card__side card__side--front card__side--front-2'>
-                  <div className='card__picture card__picture--2'>&nbsp;</div>
-                  <img
-                    src={fire}
-                    className={'card__svg-icon card__svg-icon-2'}
-                    alt='A finely dressed princess'
-                  />
+                <div className='card__side card__side--front card__side--front-3'>
+                  <div className='card__picture card__picture--3'>&nbsp;</div>
+
                   <div className='card__heading'>
-                    <span className='card__heading-span--2'>
-                      Dress for the Weather
+                    <span className='card__heading-span--3'>
+                      Fortune Online store
                     </span>
                   </div>
                   <div className='card__details'>
                     <ul>
-                      <li>Html</li>
-                      <li>CSS</li>
-                      <li>Javascript | React</li>
+                      <li>Angular</li>
+                      <li>Typescript</li>
+                      <li>HTML & CSS</li>
                     </ul>
                   </div>
                 </div>
-                <div className='card__side card__side--back card__side--back-2'>
+                <div className='card__side card__side--back card__side--back-3'>
                   <div className='card__cta'>
                     <div className='card__box'>
                       <div className='card__description'>
-                        <p>
-                          This app helps you dress appropriately for the weather
-                        </p>
+                        <p>An e-commerce website </p>
                       </div>
                     </div>
-                    <a href='#popup-1' className='btn btn--white btn--github'>
+                    <a
+                      //href='#popup-3'
+                      className='btn btn--white demo'
+                      data-toggle='modal'
+                      data-target='#myModal1'>
                       Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class='modal' id='myModal1'>
+              <div class='modal-dialog'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h3 class='modal-title'>Fortune Online Store</h3>
+                    <button type='button' class='close' data-dismiss='modal'>
+                      &times;
+                    </button>
+                  </div>
+
+                  <div class='modal-body'>
+                    <img
+                      src={
+                        'https://drive.google.com/uc?export=view&id=1aulO8mnmNzD9dOk1tBOBMNmpcB1-Fy6k'
+                      }
+                      alt='Demo of Docsite'
+                      class={'popup__img'}
+                    />
+                  </div>
+
+                  <div class='modal-footer'>
+                    <a
+                      href='https://github.com/eunicLab/fortune'
+                      class='btn popup__btn-3 button-Margin'>
+                      Source Code
+                    </a>
+                    <a
+                      href='https://fortune-euniclab.netlify.app/'
+                      class='btn popup__btn-3'>
+                      Launch App
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-1-of-3'>
+              <div className='card'>
+                <div className='card__side card__side--front card__side--front-1'>
+                  <div className='card__picture card__picture--1'>&nbsp;</div>
+
+                  <h4 className='card__heading'>
+                    <span className='card__heading-span--1'>IShopSmart</span>
+                  </h4>
+                  <div className='card__details'>
+                    <ul>
+                      <li>React Native</li>
+                      <li>Redux</li>
+                      <li>Javascript</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className='card__side card__side--back card__side--back-1'>
+                  <div className='card__cta'>
+                    <div className='card__box'>
+                      <div className='card__description'>
+                        <p>An App for managing your shopping Lists</p>
+                      </div>
+                    </div>
+                    <a
+                      //href='#popup-6'
+                      className='btn btn--white demo'
+                      data-toggle='modal'
+                      data-target='#myModal2'>
+                      Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class='modal' id='myModal2'>
+              <div class='modal-dialog'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h3 class='modal-title'>IShopSmart</h3>
+                    <button type='button' class='close' data-dismiss='modal'>
+                      &times;
+                    </button>
+                  </div>
+
+                  <div class='modal-body'>
+                    <img
+                      src={
+                        'https://drive.google.com/uc?export=view&id=1-PbI0AOsvHJS5dRGyexPu18GsM5C0gnW'
+                      }
+                      alt='Demo of ishopsmart app'
+                      class={'popup__imgishopsmart'}
+                    />
+                  </div>
+
+                  <div class='modal-footer'>
+                    <a
+                      href='https://github.com/eunicLab/ishopsmart'
+                      class='btn popup__btn-6 button-Margin'>
+                      Source Code
+                    </a>
+                    <a
+                      href='https://play.google.com/store/apps/details?id=com.euniclab.ishopsmart'
+                      class='btn popup__btn-6'>
+                      Launch App
                     </a>
                   </div>
                 </div>
@@ -66,11 +158,7 @@ function Projects() {
               <div className='card'>
                 <div className='card__side card__side--front card__side--front-2'>
                   <div className='card__picture card__picture--6'>&nbsp;</div>
-                  <img
-                    src={bizman}
-                    class={'card__svg-icon card__svg-icon-6'}
-                    alt='A boy cycling'
-                  />
+
                   <div className='card__heading'>
                     <span className='card__heading-span--6'>
                       Weight Tracker
@@ -78,9 +166,9 @@ function Projects() {
                   </div>
                   <div className='card__details'>
                     <ul>
-                      <li>Html</li>
-                      <li>CSS</li>
-                      <li>Javascript | React</li>
+                      <li>Javascript</li>
+                      <li>React</li>
+                      <li>HTML & CSS</li>
                     </ul>
                   </div>
                 </div>
@@ -94,154 +182,263 @@ function Projects() {
                         </p>
                       </div>
                     </div>
-                    <a href='#popup-5' className='btn btn--white btn--github'>
+                    <a
+                      className='btn btn--white demo'
+                      data-toggle='modal'
+                      data-target='#myModal3'>
                       Demo
                     </a>
                   </div>
                 </div>
               </div>
             </div>
+            <div class='modal' id='myModal3'>
+              <div class='modal-dialog'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h3 class='modal-title'>Weight Tracker</h3>
+                    <button type='button' class='close' data-dismiss='modal'>
+                      &times;
+                    </button>
+                  </div>
+
+                  <div class='modal-body'>
+                    <img
+                      src={
+                        'https://drive.google.com/uc?export=view&id=15Vur7KADO9ZkISQEPj35A6fhHwpSzL2x'
+                      }
+                      alt='Demo of weight tracker app'
+                      class='popup__img'
+                    />
+                  </div>
+
+                  <div class='modal-footer'>
+                    <a
+                      href='https://github.com/eunicLab/weight_tracker'
+                      class='btn popup__btn-5 button-Margin'>
+                      Source Code
+                    </a>
+                    <a
+                      href='https://weight-tracker-euniclab.netlify.app/'
+                      class='btn popup__btn-5'>
+                      Launch App
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='row'>
             <div className='col-1-of-3'>
               <div className='card'>
-                <div className='card__side card__side--front card__side--front-3'>
-                  <div className='card__picture card__picture--3'>&nbsp;</div>
-                  <img
-                    src={chat}
-                    className={'card__svg-icon card__svg-icon-3'}
-                    alt='A doctor waving in front of a hospital'
-                  />
+                <div className='card__side card__side--front card__side--front-2'>
+                  <div className='card__picture card__picture--2'>&nbsp;</div>
+
                   <div className='card__heading'>
-                    <span className='card__heading-span--3'>
-                      Hospital Website
+                    <span className='card__heading-span--2'>
+                      Dress for the Weather
                     </span>
                   </div>
                   <div className='card__details'>
                     <ul>
-                      <li>Html</li>
-                      <li>CSS</li>
-                      <li>Javascript | React</li>
+                      <li>Javascript</li>
+                      <li>React</li>
+                      <li>HTML & CSS</li>
                     </ul>
                   </div>
                 </div>
-                <div className='card__side card__side--back card__side--back-3'>
+                <div className='card__side card__side--back card__side--back-2'>
                   <div className='card__cta'>
                     <div className='card__box'>
                       <div className='card__description'>
-                        <p>A cool hospital website </p>
+                        <p>
+                          This app helps you dress appropriately for the weather
+                        </p>
                       </div>
                     </div>
-                    <a href='#popup-3' className='btn btn--white btn--github'>
+                    <a
+                      //href='#popup-1'
+                      className='btn btn--white demo'
+                      data-toggle='modal'
+                      data-target='#myModal4'>
                       Demo
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div className='row'>
-              <div className='col-1-of-3 single-col'>
-                <div className='card'>
-                  <div className='card__side card__side--front card__side--front-4'>
-                    <div className='card__picture card__picture--4'>&nbsp;</div>
-                    <img
-                      src={avo}
-                      className={'card__svg-icon card__svg-icon-4 floating'}
-                      alt='A sailor opening and closing a treasure chest'
-                    />
-                    <h4 className='card__heading'>
-                      <span className='card__heading-span--4'>
-                        Treasure Hunt
-                      </span>
-                    </h4>
-                    <div className='card__details'>
-                      <ul>
-                        <li>Html</li>
-                        <li>CSS</li>
-                        <li>Javascript | React</li>
-                      </ul>
-                    </div>
+            <div class='modal' id='myModal4'>
+              <div class='modal-dialog'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h3 class='modal-title'>Dress for the Weather</h3>
+                    <button type='button' class='close' data-dismiss='modal'>
+                      &times;
+                    </button>
                   </div>
-                  <div className='card__side card__side--back card__side--back-4'>
-                    <div className='card__cta'>
-                      <div className='card__box'>
-                        <div className='card__description'>
-                          <p>find all the ships before before time out</p>
-                        </div>
-                      </div>
-                      <a href='#popup-4' className='btn btn--white btn--github'>
-                        DEMO
-                      </a>
-                    </div>
+
+                  <div class='modal-body'>
+                    <img
+                      src={
+                        'https://drive.google.com/uc?export=view&id=1h0JKeHw4FgY7GNTDhxFCDEkDwJM-6VZD'
+                      }
+                      alt='Demo of dress for the weather app'
+                      className={'popup__img'}
+                    />
+                  </div>
+
+                  <div class='modal-footer'>
+                    <a
+                      href='https://github.com/eunicLab/dress_for_the_weather'
+                      class='btn popup__btn-2 button-Margin'>
+                      Source Code
+                    </a>
+                    <a
+                      href='https://dress-for-the-weather-euniclab.netlify.app/'
+                      class='btn popup__btn-2'>
+                      Launch App
+                    </a>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div className='col-1-of-3'>
-                <div className='card'>
-                  <div className='card__side card__side--front card__side--front-1'>
-                    <div className='card__picture card__picture--1'>&nbsp;</div>
-                    <img
-                      src={shop}
-                      className={'card__svg-icon card__svg-icon-4 floating'}
-                      alt='a spinning clock'
-                    />
-                    <h4 className='card__heading'>
-                      <span className='card__heading-span--1'>ShopSmart</span>
-                    </h4>
-                    <div className='card__details'>
-                      <ul>
-                        <li>Html</li>
-                        <li>CSS</li>
-                        <li>React | Redux</li>
-                      </ul>
-                    </div>
+            <div className='col-1-of-3 single-col'>
+              <div className='card'>
+                <div className='card__side card__side--front card__side--front-4'>
+                  <div className='card__picture card__picture--4'>&nbsp;</div>
+
+                  <h4 className='card__heading'>
+                    <span className='card__heading-span--4'>Treasure Hunt</span>
+                  </h4>
+                  <div className='card__details'>
+                    <ul>
+                      <li>Javascript</li>
+                      <li>React</li>
+                      <li>HTML & CSS</li>
+                    </ul>
                   </div>
-                  <div className='card__side card__side--back card__side--back-1'>
-                    <div className='card__cta'>
-                      <div className='card__box'>
-                        <div className='card__description'>
-                          <p>An App for managing your shopping Lists</p>
-                        </div>
+                </div>
+                <div className='card__side card__side--back card__side--back-4'>
+                  <div className='card__cta'>
+                    <div className='card__box'>
+                      <div className='card__description'>
+                        <p>find all the ships before before time out</p>
                       </div>
-                      <a href='#popup-6' className='btn btn--white btn--github'>
-                        Demo
-                      </a>
                     </div>
+                    <a
+                      //href='#popup-4'
+                      className='btn btn--white demo'
+                      data-toggle='modal'
+                      data-target='#myModal5'>
+                      DEMO
+                    </a>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class='modal' id='myModal5'>
+              <div class='modal-dialog'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h4 class='modal-title'>Treasure Hunt</h4>
+                    <button type='button' class='close' data-dismiss='modal'>
+                      &times;
+                    </button>
+                  </div>
 
-              <div className='col-1-of-3 single-col'>
-                <div className='card'>
-                  <div className='card__side card__side--front card__side--front-5'>
-                    <div className='card__picture card__picture--5'>&nbsp;</div>
+                  <div class='modal-body'>
                     <img
-                      src={tictac}
-                      className={'card__svg-icon card__svg-icon-5 floating'}
+                      src={
+                        'https://drive.google.com/uc?export=view&id=1SwpaEhpKSYcZKetOVKa4JKfVsbVxXEMQ'
+                      }
+                      alt='Demo of treasure hunt game'
+                      class={'popup__img'}
+                    />
+                  </div>
+
+                  <div class='modal-footer'>
+                    <a
+                      href='https://github.com/eunicLab/treasure-hunt2.0'
+                      className='btn popup__btn-4 button-Margin'>
+                      Source Code
+                    </a>
+                    <a
+                      href='https://euniclab.github.io/treasure-hunt2.0'
+                      class='btn popup__btn-4'>
+                      Launch App
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-1-of-3 single-col'>
+              <div className='card'>
+                <div className='card__side card__side--front card__side--front-5'>
+                  <div className='card__picture card__picture--5'>&nbsp;</div>
+
+                  <h5 className='card__heading'>
+                    <span className='card__heading-span--5'>Tic Tac Toe</span>
+                  </h5>
+                  <div className='card__details'>
+                    <ul>
+                      <li>Javascript</li>
+                      <li>React</li>
+                      <li>HTML & CSS</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className='card__side card__side--back card__side--back-5'>
+                  <div className='card__cta'>
+                    <div className='card__box'>
+                      <div className='card__description'>
+                        <p>X and O game to play with friends</p>
+                      </div>
+                    </div>
+                    <a
+                      //href='#popup-2'
+                      className='btn btn--white demo'
+                      data-toggle='modal'
+                      data-target='#myModal6'>
+                      Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class='modal' id='myModal6'>
+              <div class='modal-dialog'>
+                <div class='modal-content'>
+                  <div class='modal-header'>
+                    <h3 class='modal-title'>Treasure Hunt</h3>
+                    <button type='button' class='close' data-dismiss='modal'>
+                      &times;
+                    </button>
+                  </div>
+
+                  <div class='modal-body'>
+                    <img
+                      src={
+                        'https://drive.google.com/uc?export=view&id=11iosWVEXNMuVAuvLPXsMTlY2zn1QkAa1'
+                      }
                       alt='Demo of tic-tac-toe game'
+                      className={'popup__img'}
                     />
-                    <h5 className='card__heading'>
-                      <span className='card__heading-span--5'>Tic Tac Toe</span>
-                    </h5>
-                    <div className='card__details'>
-                      <ul>
-                        <li>Html</li>
-                        <li>CSS</li>
-                        <li>Javascript | React</li>
-                      </ul>
-                    </div>
                   </div>
-                  <div className='card__side card__side--back card__side--back-5'>
-                    <div className='card__cta'>
-                      <div className='card__box'>
-                        <div className='card__description'>
-                          <p>X and O game to play with friends</p>
-                        </div>
-                      </div>
-                      <a href='#popup-2' className='btn btn--white btn--github'>
-                        Demo
-                      </a>
-                    </div>
+
+                  <div class='modal-footer'>
+                    <a
+                      href='https://github.com/eunicLab/tic_tac_toe'
+                      class='btn popup__btn-1 button-Margin'>
+                      Source Code
+                    </a>
+                    <a
+                      href='https://euniclab.github.io/tic_tac_toe'
+                      class='btn popup__btn-1'>
+                      Launch App
+                    </a>
                   </div>
                 </div>
               </div>
@@ -249,176 +446,6 @@ function Projects() {
           </div>
         </section>
       </main>
-
-      <div class='popup' id='popup-1'>
-        <div class='popup__content'>
-          <div class='popup__left'>
-            <a href='#projects'>
-              <a href='#section-tours' className='popup__close'>
-                &times;
-              </a>
-              <h3 class='heading-secondary-sm popup__header-2'>
-                Dress for the Weather{' '}
-              </h3>
-              <img
-                src={weatherApp}
-                alt='Demo of dress for the weather app'
-                className={'popup__img'}
-              />
-            </a>
-            <a
-              href='https://github.com/eunicLab/dress_for_the_weather'
-              class='btn popup__btn-2 button-Margin'>
-              Source Code
-            </a>
-            <a
-              href='https://eloquent-cray-a3d8c9.netlify.com'
-              class='btn popup__btn-2'>
-              Launch App
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class='popup' id='popup-2'>
-        <div class='popup__content'>
-          <div class='popup__left'>
-            <a href='#projects'>
-              <a href='#section-tours' className='popup__close'>
-                &times;
-              </a>
-              <h3 class='heading-secondary-sm popup__header-1'>Tic Tac Toe </h3>
-              <img
-                src={tictactoe}
-                alt='Demo of tic-tac-toe game'
-                className={'popup__img'}
-              />
-            </a>
-            <a
-              href='https://github.com/eunicLab/tic_tac_toe'
-              class='btn popup__btn-1 button-Margin'>
-              Source Code
-            </a>
-            <a
-              href='https://euniclab.github.io/tic_tac_toe'
-              class='btn popup__btn-1'>
-              Launch App
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class='popup' id='popup-3'>
-        <div class='popup__content'>
-          <div class='popup__left'>
-            <a href='#section-tours' className='popup__close'>
-              &times;
-            </a>
-            <h3 class='heading-secondary-sm popup__header-3'>
-              Hospital Website
-            </h3>
-            <a href='#projects'>
-              <img src={docsite} alt='Demo of Docsite' class={'popup__img'} />
-            </a>
-            <a
-              href='https://github.com/eunicLab/docsite'
-              class='btn popup__btn-3 button-Margin'>
-              Source Code
-            </a>
-            <a
-              href='https://euniclab.github.io/docsite'
-              class='btn popup__btn-3'>
-              Launch App
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class='popup' id='popup-4'>
-        <div class='popup__content'>
-          <div class='popup__left'>
-            <a href='#section-tours' className='popup__close'>
-              &times;
-            </a>
-            <h3 className='heading-secondary-sm popup__header-4'>
-              Treasure Hunt
-            </h3>
-            <a href='#projects'>
-              <img
-                src={treasureHunt}
-                alt='Demo of treasure hunt game'
-                class={'popup__img'}
-              />
-            </a>
-
-            <a
-              href='https://github.com/eunicLab/treasure-hunt2.0'
-              className='btn popup__btn-4 button-Margin'>
-              Source Code
-            </a>
-            <a
-              href='https://euniclab.github.io/treasure-hunt2.0'
-              class='btn popup__btn-4'>
-              Launch App
-            </a>
-          </div>
-          <div className='popup__right'></div>
-        </div>
-      </div>
-
-      <div className='popup' id='popup-5'>
-        <div className='popup__content'>
-          <div className='popup__left'>
-            <a href='#section-tours' className='popup__close'>
-              &times;
-            </a>
-            <h3 class='heading-secondary-sm popup__header-5'>Weight Tracker</h3>
-            <a href='#projects'>
-              <img
-                src={tracker}
-                alt='Demo of weight tracker app'
-                class='popup__img'
-              />
-            </a>
-            <a
-              href='https://github.com/eunicLab/weight-tracker'
-              class='btn popup__btn-5 button-Margin'>
-              Source Code
-            </a>
-            <a
-              href='https://distracted-knuth-9fac7a.netlify.com'
-              class='btn popup__btn-5'>
-              Launch App
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class='popup' id='popup-6'>
-        <div class='popup__content'>
-          <div class='popup__left'>
-            <a href='#section-tours' className='popup__close'>
-              &times;
-            </a>
-            <h3 class='heading-secondary-sm popup__header-6'>ShopSmart</h3>
-            <a href='#projects'>
-              <img
-                src={shopsmart}
-                alt='Demo of shopsmart app'
-                class={'popup__img'}
-              />
-            </a>
-            <a
-              href='https://github.com/eunicLab/shopsmart'
-              class='btn popup__btn-6 button-Margin'>
-              Source Code
-            </a>
-            <a href='https://ishopsmart.tk' class='btn popup__btn-6'>
-              Launch App
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
