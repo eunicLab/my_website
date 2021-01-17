@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
-import Blog from './components/Blog';
-import Admin from './components/Admin';
-import Post from './components/Post';
-import LoginPage from './components/LoginPage';
-import { useSelector, useDispatch } from 'react-redux';
+import '../App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import PostOverview from './PostOverview.js';
+import Post from './Post.js';
 import axios from 'axios';
-import { sendStuffData } from './actions';
-import Portfolio from './components/Portfolio';
+import { useSelector, useDispatch } from 'react-redux';
+import { sendStuffData } from '../actions';
+import Portfolio from './Portfolio';
 
-let App = () => {
+let Blog = () => {
   const [allBlogPosts, setAllBlogPosts] = useState([]);
   const stuffData = useSelector((state) => state.stuffData);
   const dispatch = useDispatch();
+
   useEffect(() => {
     if (stuffData === '') {
       var api = 'https://mewebsitebackend.herokuapp.com/api/stuff';
@@ -25,6 +24,10 @@ let App = () => {
       setAllBlogPosts(stuffData);
     }
   }, []);
+
+  const blogPosts = allBlogPosts.map((item) => (
+    <PostOverview item={item} key={item.id} />
+  ));
 
   const routeComponents = allBlogPosts.map((item, key) => (
     <Route
@@ -41,13 +44,19 @@ let App = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path='/' component={Portfolio} />
-        <Route exact path='/Blog' component={Blog} />
-        <Route exact path='/LoginPage' component={LoginPage} />
-        <Route exact path='/Admin' component={Admin} />
         {routeComponents}
+
+        <body className='blog'>
+          <div className='blogWelcome'>Welcome to Eunice Nnaji's Blog</div>
+          <div
+            className={blogPosts.length === 0 ? 'blogMisson2' : 'blogMisson'}>
+            Inspiring Stories, Tutorials, Tech News and... so much more
+          </div>
+          <div className='allBlogPosts'>{blogPosts}</div>
+          <div className='copyright'>&copy; Copyright EuniceNnaji 2020</div>
+        </body>
       </Switch>
     </BrowserRouter>
   );
 };
-
-export default App;
+export default Blog;
