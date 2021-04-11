@@ -53,7 +53,7 @@ let Blog = () => {
             Inspiring Stories, Tutorials, Tech News and... so much more
           </div>
           <div className='allBlogPosts'>{blogPosts}</div>
-          <div className='copyright'>&copy; Copyright EuniceNnaji 2020</div>
+          <div className='copyright'>&copy; Copyright EuniceNnaji 2021</div>
         </body>
       </Switch>
     </BrowserRouter>

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
+import { stateToHTML } from 'draft-js-export-html';
+import { convertFromRaw } from 'draft-js';
 
 import { BrowserRouter, Switch } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
@@ -11,6 +13,15 @@ const Post = (props) => {
   const [allComments, setAllComments] = useState([]);
   const commentData = useSelector((state) => state.commentData);
   const dispatch = useDispatch();
+
+  const convertFromJSONToHTML = (text) => {
+    try {
+      return { __html: stateToHTML(convertFromRaw(text)) };
+    } catch (exp) {
+      console.log(exp);
+      return { __html: 'Error' };
+    }
+  };
 
   useEffect(() => {
     if (commentData === '') {
@@ -93,7 +104,11 @@ const Post = (props) => {
           <div className='allBlogPosts'>
             <div className='postTitle'>{props.item.title}</div>
             <img src={props.item.imageUrl} alt='post' className='postImage' />
-            <div className='postDescription'>{props.item.description}</div>
+            <div
+              className='postDescription'
+              dangerouslySetInnerHTML={convertFromJSONToHTML(
+                props.item.description
+              )}></div>
 
             <div className='postDate'>
               <span>

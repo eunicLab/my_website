@@ -1292,7 +1292,7 @@ body {
 }
 
 .fullBackground {
-  margin-top: 5%;
+  margin-top: 2%;
   text-align: center;
   align-items: center;
   display: flex;
@@ -1303,10 +1303,11 @@ body {
   display: block;
 }
 .textArea {
-  min-width: 520px;
-  min-height: 100px;
+  width: 520px;
+  min-height: 200px;
   border-radius: 6px;
-  margin: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
   border: 1px solid #999;
   -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
