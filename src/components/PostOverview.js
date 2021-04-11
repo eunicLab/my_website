@@ -6,11 +6,22 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Comment from './Comment';
 import { sendCommentData } from '../actions';
+import { stateToHTML } from 'draft-js-export-html';
+import { convertFromRaw } from 'draft-js';
 
 const PostOverview = (props) => {
   const [allComments, setAllComments] = useState([]);
   const commentData = useSelector((state) => state.commentData);
   const dispatch = useDispatch();
+
+  const convertFromJSONToHTML = (text) => {
+    try {
+      return { __html: stateToHTML(convertFromRaw(text)) };
+    } catch (exp) {
+      console.log(exp);
+      return { __html: 'Error' };
+    }
+  };
 
   useEffect(() => {
     if (commentData === '') {
@@ -40,9 +51,7 @@ const PostOverview = (props) => {
     <div className='blogPostOverview'>
       <div className='blogPostTitle'>{props.item.title}</div>
       <img src={props.item.imageUrl} alt='post' className='itemImage' />
-      <div className='OverviewDescription'>
-        {props.item.description.slice(0, 150) + '...'}
-      </div>
+      <div className='OverviewDescription'>{props.item.preview + '...'}</div>
 
       <div>
         <span className='postedDate'>
